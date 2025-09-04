@@ -30,7 +30,35 @@ It enables transparent communication between students, teachers, and parents whi
 ---
 
 ## ⚡ Setup Instructions
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/krishna029/Attendance-and-Carriculam-Tracking-System.git
-   cd Attendance-and-Carriculam-Tracking-System
+⚙️ Installation & Setup
+🔹 1. Database Setup (PostgreSQL)
+
+Open pgAdmin or terminal.
+
+Create new database:
+
+CREATE DATABASE trackademy_db;
+
+
+🔹 2. Backend Setup (PHP + PostgreSQL)
+
+Install XAMPP / WAMP / Laragon (or any PHP server).
+
+Copy the trackademy/ folder into:
+
+htdocs/ (XAMPP)
+
+
+🔹 3. Frontend Setup (Flutter)
+
+Install Flutter SDK and Android Studio / VS Code.
+
+Navigate to the frontend folder:
+cd Frontend
+Install dependencies:
+
+flutter pub get
+
+Run the app:
+flutter run
+Make sure emulator/physical device is connected.
